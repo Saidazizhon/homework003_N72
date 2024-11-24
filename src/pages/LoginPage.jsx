@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useAuth } from "../auth/AuthContext";
+import "./LoginPage.css";
 
 const LoginPage = () => {
   const [username, setUsername] = useState("");
